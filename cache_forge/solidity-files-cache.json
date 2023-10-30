@@ -1,0 +1,906 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "src",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib",
+      "node_modules"
+    ]
+  },
+  "files": {
+    "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1698642757064,
+      "contentHash": "834a0dde221759af42b030253315b086",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1698642757064,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "IERC20.sol/IERC20.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1698642757065,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20Metadata": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "IERC20Metadata.sol/IERC20Metadata.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+      "lastModificationDate": 1698642757070,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Context": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "Context.sol/Context.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1698642757073,
+      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "SafeMath": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "SafeMath.sol/SafeMath.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1698640327627,
+      "contentHash": "403ce8273abde646bff81558ddf512ad",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "OwnableUpgradeable": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "OwnableUpgradeable.sol/OwnableUpgradeable.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1698640327646,
+      "contentHash": "fc5844e59776a976987884e4d9814c7d",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol"
+      ],
+      "versionRequirement": "^0.8.2",
+      "artifacts": {
+        "Initializable": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "Initializable.sol/Initializable.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1698640327655,
+      "contentHash": "228f256dbb21393bc9ad02648e222f74",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.1",
+      "artifacts": {
+        "AddressUpgradeable": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "AddressUpgradeable.sol/AddressUpgradeable.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1698640327655,
+      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ContextUpgradeable": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "ContextUpgradeable.sol/ContextUpgradeable.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/CalldataExtractor.sol": {
+      "lastModificationDate": 1698643956820,
+      "contentHash": "cd4e1cd40e290df751bc0b330e72b152",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/CalldataExtractor.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConstants.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "CalldataExtractor": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "CalldataExtractor.sol/CalldataExtractor.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConstants.sol": {
+      "lastModificationDate": 1698642771770,
+      "contentHash": "93d852411e87c21321ddade20bcb6023",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConstants.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "RedstoneConstants": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "RedstoneConstants.sol/RedstoneConstants.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerBase.sol": {
+      "lastModificationDate": 1698643972589,
+      "contentHash": "8904ab5eff84cf726c3808d700fa5d52",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerBase.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/CalldataExtractor.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConstants.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneDefaultsLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/BitmapLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/NumericArrayLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/SignatureLib.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "RedstoneConsumerBase": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "RedstoneConsumerBase.sol/RedstoneConsumerBase.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerNumericBase.sol": {
+      "lastModificationDate": 1698642771771,
+      "contentHash": "07aaf36a310f6df83d5563b89559cf59",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerNumericBase.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/CalldataExtractor.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConstants.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerBase.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneDefaultsLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/BitmapLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/NumericArrayLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/SignatureLib.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "RedstoneConsumerNumericBase": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "RedstoneConsumerNumericBase.sol/RedstoneConsumerNumericBase.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneDefaultsLib.sol": {
+      "lastModificationDate": 1698642771771,
+      "contentHash": "996b4250120e3b490780c8ec4f0af600",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneDefaultsLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/NumericArrayLib.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "RedstoneDefaultsLib": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "RedstoneDefaultsLib.sol/RedstoneDefaultsLib.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/data-services/AvalancheDataServiceConsumerBase.sol": {
+      "lastModificationDate": 1698642771771,
+      "contentHash": "10666ddd9d8ffcd5fd40f1b1fdaac00a",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/data-services/AvalancheDataServiceConsumerBase.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/CalldataExtractor.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConstants.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerBase.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerNumericBase.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneDefaultsLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/BitmapLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/NumericArrayLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/SignatureLib.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "AvalancheDataServiceConsumerBase": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "AvalancheDataServiceConsumerBase.sol/AvalancheDataServiceConsumerBase.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/BitmapLib.sol": {
+      "lastModificationDate": 1698642771772,
+      "contentHash": "5fc9c1f3e08be67779b3eb285deb5f20",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/BitmapLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "BitmapLib": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "BitmapLib.sol/BitmapLib.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/NumericArrayLib.sol": {
+      "lastModificationDate": 1698643978090,
+      "contentHash": "07490a9e2fb3dd1b65a564a74529af3a",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/NumericArrayLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "NumericArrayLib": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "NumericArrayLib.sol/NumericArrayLib.json"
+        }
+      }
+    },
+    "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/SignatureLib.sol": {
+      "lastModificationDate": 1698642771772,
+      "contentHash": "2617e728cfd1eef75e2350d0a61b387f",
+      "sourceName": "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/SignatureLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "SignatureLib": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "SignatureLib.sol/SignatureLib.json"
+        }
+      }
+    },
+    "src/ReferralProgram.sol": {
+      "lastModificationDate": 1698664268984,
+      "contentHash": "0c11658c5de1f9b3be834e89762d974e",
+      "sourceName": "src/ReferralProgram.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/CalldataExtractor.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConstants.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerBase.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneConsumerNumericBase.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/core/RedstoneDefaultsLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/data-services/AvalancheDataServiceConsumerBase.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/BitmapLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/NumericArrayLib.sol",
+        "lib/redstone-oracles-monorepo/packages/evm-connector/contracts/libs/SignatureLib.sol",
+        "src/libraries/LibPercentages.sol"
+      ],
+      "versionRequirement": "=0.8.20",
+      "artifacts": {
+        "ReferralProgram": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "ReferralProgram.sol/ReferralProgram.json"
+        }
+      }
+    },
+    "src/libraries/LibPercentages.sol": {
+      "lastModificationDate": 1698663561503,
+      "contentHash": "28df29926b817fd6af733e318932dd21",
+      "sourceName": "src/libraries/LibPercentages.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.20",
+      "artifacts": {
+        "LibPercentages": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "LibPercentages.sol/LibPercentages.json"
+        }
+      }
+    }
+  }
+}
